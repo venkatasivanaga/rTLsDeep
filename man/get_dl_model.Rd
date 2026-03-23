@@ -37,7 +37,7 @@ This function selects and returns the deep learning approach to be used with the
 post-hurricane individual tree-level damage classification.
 }
 \examples{
-\donttest{
+\dontrun{
 # Set directory to tensorflow (python environment)
 # This is required if running deep learning local computer with GPU
 # Guide to install here: https://doi.org/10.5281/zenodo.3929709
@@ -51,6 +51,7 @@ model_type = "simple"
 #model_type = "densenet"
 #model_type = "efficientnet"
 
+# Image and model properties
 train_image_files_path = system.file('extdata', 'train', package='rTLsDeep')
 test_image_files_path = system.file('extdata', 'validation', package='rTLsDeep')
 img_width <- 256

@@ -14,7 +14,7 @@
 #'@return Returns a list containing the model object with the required parameters and model_type used.
 #'
 #'@examples
-#'\donttest{
+#'\dontrun{
 #'# Set directory to tensorflow (python environment)
 #'# This is required if running deep learning local computer with GPU
 #'# Guide to install here: https://doi.org/10.5281/zenodo.3929709
@@ -28,7 +28,7 @@
 #'#model_type = "densenet"
 #'#model_type = "efficientnet"
 #'
-# # Image and model properties
+#'# Image and model properties
 # path to image folders - black
 #'train_image_files_path = system.file('extdata', 'train', package='rTLsDeep')
 #'test_image_files_path = system.file('extdata', 'validation', package='rTLsDeep')

@@ -33,7 +33,7 @@ Returns a character string with the prediction classes.
 This function predicts post-hurricane individual tree-level damage from TLS derived 2D images
 }
 \examples{
-\donttest{
+\dontrun{
 # Set directory to tensorflow (python environment)
 # This is required if running deep learning local computer with GPU
 # Guide to install here: https://doi.org/10.5281/zenodo.3929709
