@@ -11,7 +11,7 @@
 #'@seealso \url{https://www.rdocumentation.org/packages/caret/versions/3.45/topics/confusionMatrix}
 #'
 #'@examples
-#'\donttest{
+#'\dontrun{
 #'# Set directory to tensorflow (python environment)
 #'# This is required if running deep learning local computer with GPU
 #'# Guide to install here: https://doi.org/10.5281/zenodo.3929709

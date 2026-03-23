@@ -20,7 +20,7 @@ Returns the confusion matrix comparing predictions with the reference from valid
 This function calculates a cross-tabulation of reference and predicted classes with associated statistics based on the deep learning models.
 }
 \examples{
-\donttest{
+\dontrun{
 # Set directory to tensorflow (python environment)
 # This is required if running deep learning local computer with GPU
 # Guide to install here: https://doi.org/10.5281/zenodo.3929709

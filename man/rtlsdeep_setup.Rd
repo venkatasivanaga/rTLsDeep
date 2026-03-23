@@ -2,13 +2,14 @@
 % Please edit documentation in R/rtlsdeep_setup.R
 \name{rtlsdeep_setup}
 \alias{rtlsdeep_setup}
-\title{Setup python and tensorflow environment}
+\title{Setup Python and TensorFlow environment}
 \usage{
 rtlsdeep_setup()
 }
 \value{
-Nothing
+Invisible TRUE on success.
 }
 \description{
-Setup python and tensorflow environment
+Installs Python and TensorFlow if they are not already available.
+This function is intended for interactive use only.
 }

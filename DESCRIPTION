@@ -28,6 +28,6 @@ Imports:
 Suggests:
   terra,
   viridis
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.3
 URL: https://github.com/carlos-alberto-silva/rTLsDeep
 BugReports: https://github.com/carlos-alberto-silva/rTLsDeep/issues
